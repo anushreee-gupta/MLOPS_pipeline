@@ -1,8 +1,23 @@
+<<<<<<< HEAD
 # Byte-compiled / optimized / DLL files
+=======
+# Ignore artifacts, logs, and output files
+Artifacts/
+Logs/
+*.pkl
+
+# Ignore data folders
+Data/raw/
+Data/processed/
+Data/output/
+
+# Ignore Python cache and compiled files
+>>>>>>> f25d98047b7f319f157bb456c0ba315a096ba91d
 __pycache__/
 *.py[cod]
 *$py.class
 
+<<<<<<< HEAD
 # C extensions
 *.so
 
@@ -128,6 +143,9 @@ celerybeat.pid
 *.sage.py
 
 # Environments
+=======
+# Ignore virtual environments
+>>>>>>> f25d98047b7f319f157bb456c0ba315a096ba91d
 .env
 .venv
 env/
@@ -136,6 +154,7 @@ ENV/
 env.bak/
 venv.bak/
 
+<<<<<<< HEAD
 # Spyder project settings
 .spyderproject
 .spyproject
@@ -172,3 +191,32 @@ cython_debug/
 
 # PyPI configuration file
 .pypirc
+=======
+# Ignore Jupyter Notebook checkpoints
+.ipynb_checkpoints
+
+# Ignore PyTest, coverage, and test-related cache
+.pytest_cache/
+.tox/
+.coverage
+coverage.xml
+nosetests.xml
+
+# Ignore Docker, Pip, and Poetry lock files
+docker-compose.override.yml
+pip-log.txt
+pip-delete-this-directory.txt
+poetry.lock
+pdm.lock
+.pdm.toml
+.pdm-build/
+
+# Ignore PyCharm and VSCode settings
+.idea/
+.vscode/
+
+# Ignore temporary or personal files
+.DS_Store
+Thumbs.db
+*.log
+>>>>>>> f25d98047b7f319f157bb456c0ba315a096ba91d
