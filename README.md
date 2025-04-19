@@ -86,8 +86,6 @@ streamlit run Scripts/app.py
 ✅ **Cloud Deployment** - Deploy to AWS/GCP.
 ✅ **Drift Detection** - Monitor model performance over time.
 
-## ✨ Contributors
-- **Your Name** - [GitHub Profile](https://github.com/yourusername)
 
 ## 📜 License
 This project is licensed under the MIT License.
