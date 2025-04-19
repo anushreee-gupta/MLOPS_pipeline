@@ -2,9 +2,7 @@
 # Byte-compiled / optimized / DLL files
 =======
 # Ignore artifacts, logs, and output files
-Artifacts/
-Logs/
-*.pkl
+
 
 # Ignore data folders
 Data/raw/
