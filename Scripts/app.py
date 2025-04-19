@@ -5,8 +5,8 @@ import os
 from helper_functions import log_info, log_error
 
 # Define paths
-ARTIFACTS_PATH = "D:/MLOPS-2025-DSC/mlops2025-DSC/Artifacts"
-DATA_OUTPUT_PATH = "D:/MLOPS-2025-DSC/mlops2025-DSC/Data/output"
+ARTIFACTS_PATH = r"C:\Users\Admin\Documents\\1BM22AI019_MLOPs\Practical\MLOPS_pipeline\Artifacts"
+DATA_OUTPUT_PATH = r"C:\Users\Admin\Documents\\1BM22AI019_MLOPs\Practical\MLOPS_pipeline\Data\Output"
 os.makedirs(DATA_OUTPUT_PATH, exist_ok=True)
 MODEL_PATH = os.path.join(ARTIFACTS_PATH, "best_classifier.pkl")
 PIPELINE_PATH = os.path.join(ARTIFACTS_PATH, "data_processing_pipeline.pkl")
@@ -70,6 +70,7 @@ if page == "Single Prediction":
         if prediction:
             st.success(f"Predicted Risk Category: {prediction}")
             log_info(f"Predicted Risk Category: {prediction}")
+
 
 elif page == "Batch Prediction":
     st.header("Batch Prediction")
